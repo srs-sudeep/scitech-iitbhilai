@@ -2,7 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
 }
+
 body {
   display: flex;
   flex-direction: column;
@@ -10,6 +12,7 @@ body {
   align-items: flex-start;
   flex-wrap: wrap;
 }
+
 footer {
   min-height: 20%;
   min-width: 100%;
@@ -138,6 +141,7 @@ main .frame {
   overflow: hidden;
   margin: 5vh;
   z-index: 2;
+  font-family: 'Montserrat', sans-serif;
 }
 .frame::before {
   content: "";
@@ -585,41 +589,27 @@ main .thinframe {
   z-index: 10;
   font-family: "Bebas Neue", cursive;
   font-size: 2.7rem;
-  left: 0;
-  top: 20%;
+  left: 10px;
+  /* top: 20%; */
   color: #fff;
 }
 .navbar {
-  position: sticky;
+  position: fixed;
   top: 0%;
   width: 100%;
-
-  padding-top: 3em;
+  padding-top: 2.5em;
   background: rgba(21, 19, 19, 0.9);
 
   height: 3%;
   padding-bottom: 2%;
   padding-left: 32.5%;
   padding-right: 45%;
-  z-index: 4;
+  z-index: 50000;
 }
-
-.college {
-  margin-left: 90%;
-  text-align: right;
-  color: #fff;
-}
-
-.heading {
-  position: absolute;
-  top: 20%;
-  height: 4%;
-}
-
 .nav-logo {
   height: 4rem;
   width: 4rem;
-
+  padding:0px 0px;
   -webkit-transition: box-shadow 0.2s ease;
   -moz-transition: box-shadow 0.2s ease;
   transition: box-shadow 0.2s ease;
@@ -663,6 +653,7 @@ main .thinframe {
 .nav-item {
   background-image: linear-gradient(to right, #54b3d6, #54b3d6 50%, white 50%);
   height: 2%;
+  font-size: 24px;
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
@@ -707,11 +698,21 @@ nav-link:hover::after {
   width: 100%;
   transition: width 0.5s linear;
 }
-.na {
-  position: relative;
-  left: -30vw;
-  font-size: 1.5em;
+
+.college {
+  margin-left: 90%;
+  text-align: right;
+  color: #fff;
+  top:20%;
 }
+
+.heading {
+  position: absolute;
+  top: 20%;
+  height: 4%;
+}
+
+
 @media screen and (max-width: 500px) {
   main .thinframe {
     height: 10vw;
