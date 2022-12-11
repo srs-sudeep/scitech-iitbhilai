@@ -585,14 +585,24 @@ main .thinframe {
 }
 
 .scitech {
-  position: absolute;
   z-index: 10;
   font-family: "Bebas Neue", cursive;
   font-size: 2.7rem;
-  left: 10px;
+  margin-left: 10px;
   /* top: 20%; */
   color: #fff;
 }
+
+.college {
+  position:absolute;
+  margin-left: 80%;
+  text-align: right;
+  color: #fff;
+  top:20%;
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.7rem;
+}
+
 .navbar {
   position: fixed;
   top: 0%;
@@ -699,12 +709,6 @@ nav-link:hover::after {
   transition: width 0.5s linear;
 }
 
-.college {
-  margin-left: 90%;
-  text-align: right;
-  color: #fff;
-  top:20%;
-}
 
 .heading {
   position: absolute;
