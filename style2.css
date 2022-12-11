@@ -265,6 +265,7 @@ main .teaser {
   width: fit-content;
   font-size: 10vh;
   color: orangered;
+  font-weight:bolder ;
 }
 .moto {
   font-size: 4vh;
@@ -776,6 +777,7 @@ nav-link:hover::after {
   }
   .meraz {
     font-size: 9vw;
+ 
   }
   .moto {
     font-size: 4vw;

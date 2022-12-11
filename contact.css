@@ -242,7 +242,7 @@ nav-link:hover::after {
   left: -200px;
   transition: 0.4s;
   padding: 15px 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.6);
 }
 #team .member:hover .member-info {
   left: 0px;
@@ -258,6 +258,7 @@ nav-link:hover::after {
   font-style: italic;
   display: block;
   font-size: 13px;
+  color: #fff;
 }
 #team .member .social-links {
   margin-top: 15px;
