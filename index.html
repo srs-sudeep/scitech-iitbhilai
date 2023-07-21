@@ -43,6 +43,12 @@
   
   <body>
 
+    <div class="loader-container" id="loader">
+      <div class="loader_ball"></div>
+      <div class="loader_ball"></div>
+      <div class="loader_ball"></div>
+    </div>
+
     <div id="particles-js"></div>
     <script src="particles.js"></script>
     <script src="app.js"></script>
@@ -144,5 +150,14 @@
       <h5>© Copyright Sci-Tech Council, IIT Bhilai.</h5>
       <h5>All rights reserved.</h5>
     </footer>
+
+    <script>
+      window.onload = function() {
+        var loader = document.getElementById("loader");
+        loader.style.display = "none";
+      };
+    </script>
+
+
   </body>
 </html>
